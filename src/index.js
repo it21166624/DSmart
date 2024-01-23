@@ -8,7 +8,7 @@ import Spinner from './views/spinner/Spinner';
 import './utils/i18n';
 import axios from 'axios';
 
-axios.defaults.baseURL = "https://esystems.cdl.lk/backend-Test/InventoryManagement";
+axios.defaults.baseURL = "";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
